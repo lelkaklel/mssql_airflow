@@ -15,4 +15,6 @@ For linux/arm64 image building
 * Developer : This will run the container using the Developer Edition (this is the default if no MSSQL_PID environment variable is supplied)
 * Premium : This will run the container using the Premium Edition
 
+## How to use this Image
+
 ```docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 --name mssql -d lelkaklel/mssql_airflow```
